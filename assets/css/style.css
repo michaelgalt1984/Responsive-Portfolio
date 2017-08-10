@@ -332,14 +332,19 @@ footer {
 
   @media screen and (max-width: 640px) {
 
+  	body {
+  		max-width: 640px;
+  	}
+
   	header {
   		position: static;
-  		max-width: 620px;
+  		max-width: 640px;
   		padding-right: 10px;
   		padding-left: 10px;
   		padding-bottom: 100px;
   		font-size: smaller;
   		margin-bottom: 0;
+  		text-align: center;
   	}
 
   	h1 {
@@ -365,12 +370,14 @@ footer {
 
   	.links {
   		clear: both;
-
+  		float: left;
+  		text-align: center;
   	}
 
   	#portfolio, #contact, #about {
   		position: relative;
-  		right: 220px;
+  		left: 33%;
+  		right: 50%;
   		font-size: 2em;
   	}
 
@@ -394,7 +401,7 @@ footer {
 
   	#portfolio_images img {
   		width: 510px;
-		height: 510px;
+  		height: 510px;
   	}
 
   	#connect_with_me {
@@ -404,6 +411,41 @@ footer {
   		font-size: larger;
   		float-left;
   		width: 560px;
+  	}
+
+  	#RSP p {
+  		top: 2700px;
+  		right: 30px;
+  		width: 510px;
+  		font-size: x-large;
+  	}
+
+  	#widget p {
+  		top: 2150px;
+  		right: 30px;
+  		width: 510px;
+  		font-size: x-large;
+  	}
+
+  	#trivia p {
+  		top: 1585px;
+  		right: 30px;
+  		width: 510px;
+  		font-size: x-large;
+  	}
+
+  	#rpg p {
+  		top: 990px;
+  		right: 30px;
+  		width: 510px;
+  		font-size: x-large;
+  	}
+
+  	#hangman p {
+  		top: 470px;
+  		right: 30px;
+  		width: 510px;
+  		font-size: x-large;
   	}
 
     /*#logo {
