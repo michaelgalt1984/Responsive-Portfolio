@@ -399,6 +399,14 @@ footer {
 
   	}
 
+  	#contact_form_box {
+  		/*margin-left: 20px;*/
+  		margin-bottom: 30px;
+  		margin-top: 0px;
+  		max-width: 560px;
+
+  	}
+
   	#portfolio_images img {
   		width: 510px;
   		height: 510px;
